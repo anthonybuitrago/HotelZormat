@@ -31,7 +31,7 @@ HotelZormat.Datos      <- Acceso a SQL Server (repositorios)
 - [ ] Reportes
 
 ## Autor
-Anthony Buitrago · Matrícula UCE-2020-2047
+Anthony Buitrago · Matrícula UCE-2024-2047
 
 ## Licencia
 Uso académico.
