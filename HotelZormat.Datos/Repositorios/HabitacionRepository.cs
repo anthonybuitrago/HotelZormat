@@ -7,7 +7,7 @@ using HotelZormat.Negocio.Modelo;
 
 namespace HotelZormat.Datos.Repositorios
 {
-    public class HabitacionRepository
+    public class HabitacionRepository : IHabitacionRepository
     {
         public List<Habitacion> Listar(string piso = "Todos", string estado = "Todos")
         {

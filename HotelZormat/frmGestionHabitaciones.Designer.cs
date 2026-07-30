@@ -68,7 +68,7 @@ namespace HotelZormat
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(258, 25);
             this.lblTitulo.TabIndex = 0;
-            this.lblTitulo.Text = "Gestión CRUD Habitaciones";
+            this.lblTitulo.Text = "Gestión Habitaciones";
             // 
             // gbFiltros
             // 
@@ -365,7 +365,7 @@ namespace HotelZormat
             this.MaximizeBox = false;
             this.Name = "frmGestionHabitaciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HotelZormat - CRUD Habitaciones";
+            this.Text = "HotelZormat - Habitaciones";
             this.Load += new System.EventHandler(this.frmGestionHabitaciones_Load);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();

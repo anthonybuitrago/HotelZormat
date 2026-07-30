@@ -7,7 +7,7 @@ using HotelZormat.Negocio.Modelo;
 
 namespace HotelZormat.Datos.Repositorios
 {
-    public class BitacoraRepository
+    public class BitacoraRepository : IBitacoraRepository
     {
         public void Registrar(string usuarioNombre, string accion, string detalles = "")
         {

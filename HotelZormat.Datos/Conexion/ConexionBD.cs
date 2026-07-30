@@ -1,15 +1,25 @@
 // Pasaporte/ID: 143540342 - Anthony Buitrago (Matrícula: 2024-2047)
 using System;
+using System.Configuration;
 using System.Data.SqlClient;
 
 namespace HotelZormat.Datos.Conexion
 {
     public static class ConexionBD
     {
+        public static string ObtenerConnectionString()
+        {
+            var connStr = ConfigurationManager.ConnectionStrings["HotelZormatDB"];
+            if (connStr == null || string.IsNullOrWhiteSpace(connStr.ConnectionString))
+            {
+                return "Data Source=localhost\\SQLEXPRESS;Initial Catalog=HotelZormatDB;Integrated Security=True;";
+            }
+            return connStr.ConnectionString;
+        }
+
         public static SqlConnection ObtenerConexion()
         {
-            string cadenaConexion = ConfigurationDB.ObtenerConnectionString();
-            return new SqlConnection(cadenaConexion);
+            return new SqlConnection(ObtenerConnectionString());
         }
     }
 }

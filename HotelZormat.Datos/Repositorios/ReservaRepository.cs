@@ -7,7 +7,7 @@ using HotelZormat.Negocio.Modelo;
 
 namespace HotelZormat.Datos.Repositorios
 {
-    public class ReservaRepository
+    public class ReservaRepository : IReservaRepository
     {
         public List<Reserva> ListarProximas(int dias = 7)
         {

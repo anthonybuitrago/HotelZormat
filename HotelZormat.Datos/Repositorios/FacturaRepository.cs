@@ -7,7 +7,7 @@ using HotelZormat.Negocio.Modelo;
 
 namespace HotelZormat.Datos.Repositorios
 {
-    public class FacturaRepository
+    public class FacturaRepository : IFacturaRepository
     {
         public void Guardar(Factura f)
         {
