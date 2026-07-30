@@ -89,7 +89,7 @@ namespace HotelZormat
             this.btnHabitaciones.Name = "btnHabitaciones";
             this.btnHabitaciones.Size = new System.Drawing.Size(210, 60);
             this.btnHabitaciones.TabIndex = 2;
-            this.btnHabitaciones.Text = "🛏️ CRUD Habitaciones";
+            this.btnHabitaciones.Text = "🛏️ Gestión Habitaciones";
             this.btnHabitaciones.UseVisualStyleBackColor = false;
             this.btnHabitaciones.Click += new System.EventHandler(this.btnHabitaciones_Click);
             // 
@@ -103,7 +103,7 @@ namespace HotelZormat
             this.btnHuespedes.Name = "btnHuespedes";
             this.btnHuespedes.Size = new System.Drawing.Size(210, 60);
             this.btnHuespedes.TabIndex = 3;
-            this.btnHuespedes.Text = "👥 CRUD Huéspedes";
+            this.btnHuespedes.Text = "👥 Gestión Huéspedes";
             this.btnHuespedes.UseVisualStyleBackColor = false;
             this.btnHuespedes.Click += new System.EventHandler(this.btnHuespedes_Click);
             // 

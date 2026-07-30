@@ -62,7 +62,7 @@ namespace HotelZormat
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(236, 25);
             this.lblTitulo.TabIndex = 0;
-            this.lblTitulo.Text = "Gestión CRUD Huéspedes";
+            this.lblTitulo.Text = "Gestión Huéspedes";
             // 
             // lblBuscar
             // 
@@ -300,7 +300,7 @@ namespace HotelZormat
             this.MaximizeBox = false;
             this.Name = "frmGestionHuespedes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HotelZormat - CRUD Huéspedes";
+            this.Text = "HotelZormat - Huéspedes";
             this.Load += new System.EventHandler(this.frmGestionHuespedes_Load);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();

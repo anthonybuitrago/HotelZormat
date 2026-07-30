@@ -6,7 +6,7 @@ using HotelZormat.Negocio.Modelo;
 
 namespace HotelZormat.Datos.Repositorios
 {
-    public class UsuarioRepository
+    public class UsuarioRepository : IUsuarioRepository
     {
         public Usuario ValidarUsuario(string nombreUsuario, string claveHash)
         {

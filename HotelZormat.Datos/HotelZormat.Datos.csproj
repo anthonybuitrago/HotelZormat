@@ -43,7 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion\ConexionBD.cs" />
-    <Compile Include="ConfigurationDB.cs" />
     <Compile Include="Modelo\Usuario.cs" />
     <Compile Include="Modelo\Habitacion.cs" />
     <Compile Include="Modelo\Huesped.cs" />
@@ -59,6 +58,12 @@
     <Compile Include="Repositorios\ReservaRepository.cs" />
     <Compile Include="Repositorios\FacturaRepository.cs" />
     <Compile Include="Repositorios\BitacoraRepository.cs" />
+    <Compile Include="Repositorios\IUsuarioRepository.cs" />
+    <Compile Include="Repositorios\IHabitacionRepository.cs" />
+    <Compile Include="Repositorios\IHuespedRepository.cs" />
+    <Compile Include="Repositorios\IReservaRepository.cs" />
+    <Compile Include="Repositorios\IFacturaRepository.cs" />
+    <Compile Include="Repositorios\IBitacoraRepository.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
