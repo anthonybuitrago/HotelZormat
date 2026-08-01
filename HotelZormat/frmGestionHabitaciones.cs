@@ -1,9 +1,10 @@
-// Pasaporte/ID: 143540342 - Anthony Buitrago (Matrícula: 2024-2047)
+// Pasaporte: 143540342 - Anthony Buitrago (Matrícula: 2024-2047)
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-using HotelZormat.Negocio.Modelo;
+using HotelZormat.Entidades;
+using HotelZormat.Negocio.Excepciones;
 using HotelZormat.Negocio.Servicios;
 
 namespace HotelZormat
@@ -34,7 +35,8 @@ namespace HotelZormat
         {
             string[] tipos = new string[] { "Sencilla", "Doble", "Suite" };
             cboTipo.Items.Clear();
-            foreach (string t in tipos)
+                        // TODO: RUBRICA - Llenado de ComboBox con foreach
+foreach (string t in tipos)
             {
                 cboTipo.Items.Add(t);
             }
@@ -78,7 +80,8 @@ namespace HotelZormat
                 dgvHabitaciones.DataSource = null;
                 dgvHabitaciones.DataSource = lista;
             }
-            catch (FormatException ex)
+                        // TODO: RUBRICA - Manejo de errores con catch específicos para FormatException, SqlException, etc.
+catch (FormatException ex)
             {
                 MessageBox.Show("Formato incorrecto al filtrar: " + ex.Message, "Error Formato", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

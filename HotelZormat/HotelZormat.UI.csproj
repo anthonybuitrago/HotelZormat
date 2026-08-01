@@ -117,6 +117,7 @@
       <Project>{42bbf4c2-fc9b-4182-97b9-88ef7d1f9140}</Project>
       <Name>HotelZormat.Negocio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HotelZormat.Entidades\HotelZormat.Entidades.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -32,7 +32,7 @@ namespace HotelZormat
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.lblTitulo.ForeColor = System.Drawing.Color.FromArgb(24, 43, 73);
-            this.lblTitulo.Location = new System.Drawing.Point(80, 20);
+            this.lblTitulo.Location = new System.Drawing.Point(35, 20);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(203, 30);
             this.lblTitulo.TabIndex = 0;
@@ -43,7 +43,7 @@ namespace HotelZormat
             this.lblSubtitulo.AutoSize = true;
             this.lblSubtitulo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(100, 100, 100);
-            this.lblSubtitulo.Location = new System.Drawing.Point(85, 55);
+            this.lblSubtitulo.Location = new System.Drawing.Point(40, 55);
             this.lblSubtitulo.Name = "lblSubtitulo";
             this.lblSubtitulo.Size = new System.Drawing.Size(185, 15);
             this.lblSubtitulo.TabIndex = 1;

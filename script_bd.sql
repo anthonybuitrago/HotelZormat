@@ -94,7 +94,7 @@ GO
 
 INSERT INTO dbo.Usuarios (Nombre, Usuario, ClaveHash, Rol) VALUES
 ('Administrador Principal', 'admin', '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9', 'Administrador'),
-('Recepcionista Turno A', 'recep', '529b4e5480572e428e21bc19e59af3ddff93d7c570b281f62c0eb424fcf88f28', 'Recepcionista');
+('Recepcionista Turno A', 'recep', '5d37ed314cf2b5c8462b52b12cd512e2ac4a180e75598da4f12bfb0dea6d0a67', 'Recepcionista');
 
 INSERT INTO dbo.Habitaciones (Numero, Tipo, Piso, Estado, Capacidad, TarifaBase) VALUES
 (101, 'Sencilla', '1', 'Disponible', 1, 50.00),

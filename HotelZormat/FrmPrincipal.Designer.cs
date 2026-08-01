@@ -45,12 +45,13 @@ namespace HotelZormat
             // lblUsuarioActivo
             // 
             this.lblUsuarioActivo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblUsuarioActivo.AutoSize = true;
+            this.lblUsuarioActivo.AutoSize = false;
+            this.lblUsuarioActivo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lblUsuarioActivo.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.lblUsuarioActivo.ForeColor = System.Drawing.Color.FromArgb(220, 230, 242);
-            this.lblUsuarioActivo.Location = new System.Drawing.Point(520, 20);
+            this.lblUsuarioActivo.Location = new System.Drawing.Point(360, 20);
             this.lblUsuarioActivo.Name = "lblUsuarioActivo";
-            this.lblUsuarioActivo.Size = new System.Drawing.Size(124, 19);
+            this.lblUsuarioActivo.Size = new System.Drawing.Size(400, 19);
             this.lblUsuarioActivo.TabIndex = 1;
             this.lblUsuarioActivo.Text = "Usuario: Cargando...";
             // 

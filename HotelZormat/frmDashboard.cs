@@ -1,10 +1,11 @@
-// Pasaporte/ID: 143540342 - Anthony Buitrago (Matrícula: 2024-2047)
+// Pasaporte: 143540342 - Anthony Buitrago (Matrícula: 2024-2047)
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Windows.Forms;
-using HotelZormat.Negocio.Modelo;
+using HotelZormat.Entidades;
+using HotelZormat.Negocio.Excepciones;
 using HotelZormat.Negocio.Servicios;
 
 namespace HotelZormat
@@ -52,7 +53,8 @@ namespace HotelZormat
                     btn.FlatAppearance.BorderSize = 0;
 
                     // Colores por Estado (Verde, Rojo, Naranja, Azul)
-                    switch (hab.Estado)
+                                        // TODO: RUBRICA - Vista visual con switch para colores por estado
+switch (hab.Estado)
                     {
                         case "Disponible":
                             btn.BackColor = Color.FromArgb(46, 139, 87); // Verde

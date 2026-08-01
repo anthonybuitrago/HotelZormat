@@ -1,7 +1,8 @@
-// Pasaporte/ID: 143540342 - Anthony Buitrago (Matrícula: 2024-2047)
+// Pasaporte: 143540342 - Anthony Buitrago (Matrícula: 2024-2047)
 using System.Collections.Generic;
 using HotelZormat.Datos.Repositorios;
-using HotelZormat.Negocio.Modelo;
+using HotelZormat.Entidades;
+using HotelZormat.Negocio.Excepciones;
 
 namespace HotelZormat.Negocio.Servicios
 {
