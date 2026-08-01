@@ -39,7 +39,6 @@ namespace HotelZormat
         {
             try
             {
-                // Listar habitaciones en estado Ocupada
                 List<Habitacion> ocupadas = _habServicio.ObtenerTodas(piso: "Todos", estado: "Ocupada");
                 dgvOcupacion.DataSource = null;
                 dgvOcupacion.DataSource = ocupadas;

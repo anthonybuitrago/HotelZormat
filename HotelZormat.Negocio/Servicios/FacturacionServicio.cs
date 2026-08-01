@@ -61,7 +61,6 @@ namespace HotelZormat.Negocio.Servicios
 
             _facturaRepo.Guardar(factura);
 
-            // Actualizar estados
             _reservaRepo.CambiarEstado(reservaId, "Completada");
             _habRepo.CambiarEstado(reserva.NumeroHabitacion, "Limpieza");
 

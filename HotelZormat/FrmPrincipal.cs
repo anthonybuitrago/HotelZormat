@@ -17,7 +17,6 @@ namespace HotelZormat
             
             lblUsuarioActivo.Text = "Usuario: " + UsuarioSesion.Nombre + " (" + UsuarioSesion.Rol + ")";
 
-            // Permiso exclusivo para Administrador
             btnBitacora.Visible = (UsuarioSesion.Rol == "Administrador");
         }
 

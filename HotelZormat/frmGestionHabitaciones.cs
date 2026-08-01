@@ -24,7 +24,6 @@ namespace HotelZormat
             CargarComboBoxes();
             CargarHabitaciones();
 
-            // Regla de seguridad: solo el Admin puede eliminar habitaciones
             if (FrmPrincipal.UsuarioSesion != null && FrmPrincipal.UsuarioSesion.Rol != "Administrador")
             {
                 btnEliminar.Enabled = false;
@@ -35,8 +34,8 @@ namespace HotelZormat
         {
             string[] tipos = new string[] { "Sencilla", "Doble", "Suite" };
             cboTipo.Items.Clear();
-                        // TODO: RUBRICA - Llenado de ComboBox con foreach
-foreach (string t in tipos)
+            // TODO: RUBRICA - Llenado de ComboBox con foreach
+            foreach (string t in tipos)
             {
                 cboTipo.Items.Add(t);
             }
@@ -80,8 +79,8 @@ foreach (string t in tipos)
                 dgvHabitaciones.DataSource = null;
                 dgvHabitaciones.DataSource = lista;
             }
-                        // TODO: RUBRICA - Manejo de errores con catch específicos para FormatException, SqlException, etc.
-catch (FormatException ex)
+            // TODO: RUBRICA - Manejo de errores con catch específicos para FormatException, SqlException, etc.
+            catch (FormatException ex)
             {
                 MessageBox.Show("Formato incorrecto al filtrar: " + ex.Message, "Error Formato", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -194,7 +193,7 @@ catch (FormatException ex)
 
                 int num = int.Parse(txtNumero.Text);
 
-                // Confirmación previa requerida por la rúbrica
+                
                 DialogResult dr = MessageBox.Show("¿Está seguro de eliminar la habitación #" + num + "?", "Confirmar Eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (dr == DialogResult.Yes)
                 {

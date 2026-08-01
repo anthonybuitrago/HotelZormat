@@ -3,8 +3,8 @@ using System;
 
 namespace HotelZormat.Negocio.Excepciones
 {
-        // TODO: RUBRICA - Mínimo 1 excepción personalizada de negocio
-public class HabitacionOcupadaException : Exception
+    // TODO: RUBRICA - Mínimo 1 excepción personalizada de negocio
+    public class HabitacionOcupadaException : Exception
     {
         public int NumeroHabitacion { get; private set; }
 

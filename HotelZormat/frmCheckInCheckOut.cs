@@ -119,7 +119,6 @@ namespace HotelZormat
 
                     MessageBox.Show("Check-Out completado con éxito. La habitación ha pasado a estado LIMPIEZA.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    // Abrir pantalla de desglose de factura
                     frmFacturacion frmFact = new frmFacturacion(facturaGenerada, r);
                     frmFact.ShowDialog();
 

@@ -52,9 +52,8 @@ namespace HotelZormat
 
                     btn.FlatAppearance.BorderSize = 0;
 
-                    // Colores por Estado (Verde, Rojo, Naranja, Azul)
-                                        // TODO: RUBRICA - Vista visual con switch para colores por estado
-switch (hab.Estado)
+                    // TODO: RUBRICA - Vista visual con switch para colores por estado
+                    switch (hab.Estado)
                     {
                         case "Disponible":
                             btn.BackColor = Color.FromArgb(46, 139, 87); // Verde

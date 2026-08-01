@@ -47,7 +47,6 @@ namespace HotelZormat.Datos.Repositorios
                 }
             }
 
-            // Tipo B02: Factura de Consumo Final secuencial
             return "B02" + siguienteNumero.ToString("D8");
         }
 

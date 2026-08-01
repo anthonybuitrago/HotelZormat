@@ -93,7 +93,6 @@ namespace HotelZormat.Negocio.Servicios
 
             _repo.Crear(r);
 
-            // Cambiar estado de habitación a 'Reservada'
             if (hab != null && hab.Estado == "Disponible")
             {
                 _habRepo.CambiarEstado(hab.Numero, "Reservada");

@@ -9,8 +9,8 @@ namespace HotelZormat.Datos.Conexion
     {
         public static string ObtenerConnectionString()
         {
-            var connStr =             // TODO: RUBRICA - Connection string en App.config sin hardcodear
-ConfigurationManager.ConnectionStrings["HotelZormatDB"];
+            // TODO: RUBRICA - Connection string en App.config sin hardcodear
+            var connStr = ConfigurationManager.ConnectionStrings["HotelZormatDB"];
             if (connStr == null || string.IsNullOrWhiteSpace(connStr.ConnectionString))
             {
                 throw new ConfigurationErrorsException("La cadena de conexión 'HotelZormatDB' no se encontró en App.config.");
