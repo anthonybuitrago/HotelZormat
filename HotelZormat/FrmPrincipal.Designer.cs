@@ -63,7 +63,7 @@ namespace HotelZormat
             this.lblTituloApp.Name = "lblTituloApp";
             this.lblTituloApp.Size = new System.Drawing.Size(269, 30);
             this.lblTituloApp.TabIndex = 0;
-            this.lblTituloApp.Text = "HotelZormat - Menú Principal";
+            this.lblTituloApp.Text = "Bávaro Oasis Boutique Hotel";
             // 
             // btnDashboard
             // 
@@ -197,7 +197,7 @@ namespace HotelZormat
             this.MaximizeBox = false;
             this.Name = "FrmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HotelZormat - Sistema Principal";
+            this.Text = "Bávaro Oasis - Sistema Principal";
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();
             this.ResumeLayout(false);

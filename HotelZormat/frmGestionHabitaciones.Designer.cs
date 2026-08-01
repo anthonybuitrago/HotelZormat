@@ -365,7 +365,7 @@ namespace HotelZormat
             this.MaximizeBox = false;
             this.Name = "frmGestionHabitaciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HotelZormat - Habitaciones";
+            this.Text = "Bávaro Oasis - Habitaciones";
             this.Load += new System.EventHandler(this.frmGestionHabitaciones_Load);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();

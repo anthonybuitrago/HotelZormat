@@ -87,7 +87,7 @@ namespace HotelZormat
             this.MaximizeBox = false;
             this.Name = "frmBitacora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HotelZormat - Bitácora del Sistema";
+            this.Text = "Bávaro Oasis - Bitácora del Sistema";
             this.Load += new System.EventHandler(this.frmBitacora_Load);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();

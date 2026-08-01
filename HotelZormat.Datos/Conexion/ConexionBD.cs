@@ -12,7 +12,7 @@ namespace HotelZormat.Datos.Conexion
             var connStr = ConfigurationManager.ConnectionStrings["HotelZormatDB"];
             if (connStr == null || string.IsNullOrWhiteSpace(connStr.ConnectionString))
             {
-                return "Data Source=localhost\\SQLEXPRESS;Initial Catalog=HotelZormatDB;Integrated Security=True;";
+                throw new ConfigurationErrorsException("La cadena de conexión 'HotelZormatDB' no se encontró en App.config.");
             }
             return connStr.ConnectionString;
         }

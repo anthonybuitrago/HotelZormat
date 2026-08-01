@@ -36,7 +36,7 @@ namespace HotelZormat
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(203, 30);
             this.lblTitulo.TabIndex = 0;
-            this.lblTitulo.Text = "HotelZormat MVP";
+            this.lblTitulo.Text = "Bávaro Oasis Boutique Hotel";
             // 
             // lblSubtitulo
             // 
@@ -134,7 +134,7 @@ namespace HotelZormat
             this.MaximizeBox = false;
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HotelZormat - Inicio de Sesión";
+            this.Text = "Bávaro Oasis - Inicio de Sesión";
             this.ResumeLayout(false);
             this.PerformLayout();
         }

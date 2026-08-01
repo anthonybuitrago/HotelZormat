@@ -300,7 +300,7 @@ namespace HotelZormat
             this.MaximizeBox = false;
             this.Name = "frmGestionHuespedes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HotelZormat - Huéspedes";
+            this.Text = "Bávaro Oasis - Huéspedes";
             this.Load += new System.EventHandler(this.frmGestionHuespedes_Load);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();

@@ -226,7 +226,7 @@ namespace HotelZormat
             this.MaximizeBox = false;
             this.Name = "frmReportes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HotelZormat - Reportes del Sistema";
+            this.Text = "Bávaro Oasis - Reportes del Sistema";
             this.Load += new System.EventHandler(this.frmReportes_Load);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();

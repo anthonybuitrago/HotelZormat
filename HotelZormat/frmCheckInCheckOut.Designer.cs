@@ -117,7 +117,7 @@ namespace HotelZormat
             this.MaximizeBox = false;
             this.Name = "frmCheckInCheckOut";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HotelZormat - Check-In / Check-Out";
+            this.Text = "Bávaro Oasis - Check-In / Check-Out";
             this.Load += new System.EventHandler(this.frmCheckInCheckOut_Load);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();

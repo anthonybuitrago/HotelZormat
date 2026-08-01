@@ -292,7 +292,7 @@ namespace HotelZormat
             this.MaximizeBox = false;
             this.Name = "frmFacturacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HotelZormat - Detalle de Factura";
+            this.Text = "Bávaro Oasis - Detalle de Factura";
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();
             this.pnlFactura.ResumeLayout(false);
