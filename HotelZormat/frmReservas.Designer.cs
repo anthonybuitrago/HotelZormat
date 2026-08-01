@@ -44,7 +44,7 @@ namespace HotelZormat
             // 
             // pnlTop
             // 
-            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(20, 35, 60);
+            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(15, 82, 186);
             this.pnlTop.Controls.Add(this.lblTitulo);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
@@ -67,7 +67,7 @@ namespace HotelZormat
             // 
             this.lblSubtituloLista.AutoSize = true;
             this.lblSubtituloLista.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblSubtituloLista.ForeColor = System.Drawing.Color.FromArgb(20, 35, 60);
+            this.lblSubtituloLista.ForeColor = System.Drawing.Color.FromArgb(15, 82, 186);
             this.lblSubtituloLista.Location = new System.Drawing.Point(15, 60);
             this.lblSubtituloLista.Name = "lblSubtituloLista";
             this.lblSubtituloLista.Size = new System.Drawing.Size(235, 19);

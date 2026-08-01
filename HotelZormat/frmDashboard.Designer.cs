@@ -32,7 +32,7 @@ namespace HotelZormat
             // 
             // pnlEncabezado
             // 
-            this.pnlEncabezado.BackColor = System.Drawing.Color.FromArgb(20, 35, 60);
+            this.pnlEncabezado.BackColor = System.Drawing.Color.FromArgb(15, 82, 186);
             this.pnlEncabezado.Controls.Add(this.btnRefrescar);
             this.pnlEncabezado.Controls.Add(this.lblTitulo);
             this.pnlEncabezado.Dock = System.Windows.Forms.DockStyle.Top;

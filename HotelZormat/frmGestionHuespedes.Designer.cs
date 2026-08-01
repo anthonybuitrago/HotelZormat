@@ -45,7 +45,7 @@ namespace HotelZormat
             // 
             // pnlTop
             // 
-            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(20, 35, 60);
+            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(15, 82, 186);
             this.pnlTop.Controls.Add(this.lblTitulo);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
