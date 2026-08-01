@@ -29,7 +29,7 @@ namespace HotelZormat
             // 
             // pnlTop
             // 
-            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(24, 43, 73);
+            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(20, 35, 60);
             this.pnlTop.Controls.Add(this.lblTitulo);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
@@ -76,7 +76,7 @@ namespace HotelZormat
             // 
             // btnCheckIn
             // 
-            this.btnCheckIn.BackColor = System.Drawing.Color.FromArgb(40, 167, 69);
+            this.btnCheckIn.BackColor = System.Drawing.Color.FromArgb(60, 179, 113);
             this.btnCheckIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheckIn.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnCheckIn.ForeColor = System.Drawing.Color.White;
@@ -90,7 +90,7 @@ namespace HotelZormat
             // 
             // btnCheckOut
             // 
-            this.btnCheckOut.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnCheckOut.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnCheckOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheckOut.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnCheckOut.ForeColor = System.Drawing.Color.White;

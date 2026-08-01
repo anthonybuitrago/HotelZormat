@@ -51,7 +51,7 @@ namespace HotelZormat
             // 
             // pnlTop
             // 
-            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(24, 43, 73);
+            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(20, 35, 60);
             this.pnlTop.Controls.Add(this.lblTitulo);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
@@ -127,7 +127,7 @@ namespace HotelZormat
             // 
             // btnFiltrar
             // 
-            this.btnFiltrar.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnFiltrar.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFiltrar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnFiltrar.ForeColor = System.Drawing.Color.White;
@@ -297,7 +297,7 @@ namespace HotelZormat
             // 
             // btnGuardar
             // 
-            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(40, 167, 69);
+            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(60, 179, 113);
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnGuardar.ForeColor = System.Drawing.Color.White;
@@ -311,7 +311,7 @@ namespace HotelZormat
             // 
             // btnActualizar
             // 
-            this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualizar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnActualizar.ForeColor = System.Drawing.Color.White;
@@ -325,7 +325,7 @@ namespace HotelZormat
             // 
             // btnEliminar
             // 
-            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(200, 50, 50);
+            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(205, 92, 92);
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnEliminar.ForeColor = System.Drawing.Color.White;

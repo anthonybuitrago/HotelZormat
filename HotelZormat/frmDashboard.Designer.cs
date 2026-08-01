@@ -32,7 +32,7 @@ namespace HotelZormat
             // 
             // pnlEncabezado
             // 
-            this.pnlEncabezado.BackColor = System.Drawing.Color.FromArgb(24, 43, 73);
+            this.pnlEncabezado.BackColor = System.Drawing.Color.FromArgb(20, 35, 60);
             this.pnlEncabezado.Controls.Add(this.btnRefrescar);
             this.pnlEncabezado.Controls.Add(this.lblTitulo);
             this.pnlEncabezado.Dock = System.Windows.Forms.DockStyle.Top;
@@ -54,7 +54,7 @@ namespace HotelZormat
             // 
             // btnRefrescar
             // 
-            this.btnRefrescar.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnRefrescar.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnRefrescar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRefrescar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnRefrescar.ForeColor = System.Drawing.Color.White;
@@ -94,7 +94,7 @@ namespace HotelZormat
             // 
             this.lblVerde.AutoSize = true;
             this.lblVerde.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            this.lblVerde.ForeColor = System.Drawing.Color.FromArgb(34, 139, 34);
+            this.lblVerde.ForeColor = System.Drawing.Color.FromArgb(60, 179, 113);
             this.lblVerde.Location = new System.Drawing.Point(30, 10);
             this.lblVerde.Name = "lblVerde";
             this.lblVerde.Size = new System.Drawing.Size(145, 17);
@@ -105,7 +105,7 @@ namespace HotelZormat
             // 
             this.lblRojo.AutoSize = true;
             this.lblRojo.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            this.lblRojo.ForeColor = System.Drawing.Color.FromArgb(178, 34, 34);
+            this.lblRojo.ForeColor = System.Drawing.Color.FromArgb(205, 92, 92);
             this.lblRojo.Location = new System.Drawing.Point(210, 10);
             this.lblRojo.Name = "lblRojo";
             this.lblRojo.Size = new System.Drawing.Size(126, 17);
@@ -116,7 +116,7 @@ namespace HotelZormat
             // 
             this.lblNaranja.AutoSize = true;
             this.lblNaranja.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            this.lblNaranja.ForeColor = System.Drawing.Color.FromArgb(218, 112, 21);
+            this.lblNaranja.ForeColor = System.Drawing.Color.FromArgb(230, 126, 34);
             this.lblNaranja.Location = new System.Drawing.Point(380, 10);
             this.lblNaranja.Name = "lblNaranja";
             this.lblNaranja.Size = new System.Drawing.Size(157, 17);
@@ -127,7 +127,7 @@ namespace HotelZormat
             // 
             this.lblAzul.AutoSize = true;
             this.lblAzul.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            this.lblAzul.ForeColor = System.Drawing.Color.FromArgb(25, 118, 210);
+            this.lblAzul.ForeColor = System.Drawing.Color.FromArgb(93, 173, 226);
             this.lblAzul.Location = new System.Drawing.Point(570, 10);
             this.lblAzul.Name = "lblAzul";
             this.lblAzul.Size = new System.Drawing.Size(130, 17);

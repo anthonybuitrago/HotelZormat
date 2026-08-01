@@ -33,7 +33,7 @@ namespace HotelZormat
             // 
             // pnlTop
             // 
-            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(24, 43, 73);
+            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(20, 35, 60);
             this.pnlTop.Controls.Add(this.lblUsuarioActivo);
             this.pnlTop.Controls.Add(this.lblTituloApp);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
@@ -68,7 +68,7 @@ namespace HotelZormat
             // 
             // btnDashboard
             // 
-            this.btnDashboard.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnDashboard.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnDashboard.ForeColor = System.Drawing.Color.White;
@@ -82,7 +82,7 @@ namespace HotelZormat
             // 
             // btnHabitaciones
             // 
-            this.btnHabitaciones.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnHabitaciones.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnHabitaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHabitaciones.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnHabitaciones.ForeColor = System.Drawing.Color.White;
@@ -96,7 +96,7 @@ namespace HotelZormat
             // 
             // btnHuespedes
             // 
-            this.btnHuespedes.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnHuespedes.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnHuespedes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHuespedes.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnHuespedes.ForeColor = System.Drawing.Color.White;
@@ -110,7 +110,7 @@ namespace HotelZormat
             // 
             // btnReservas
             // 
-            this.btnReservas.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnReservas.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnReservas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReservas.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnReservas.ForeColor = System.Drawing.Color.White;
@@ -124,7 +124,7 @@ namespace HotelZormat
             // 
             // btnCheckInOut
             // 
-            this.btnCheckInOut.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnCheckInOut.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnCheckInOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheckInOut.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnCheckInOut.ForeColor = System.Drawing.Color.White;
@@ -138,7 +138,7 @@ namespace HotelZormat
             // 
             // btnReportes
             // 
-            this.btnReportes.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnReportes.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReportes.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnReportes.ForeColor = System.Drawing.Color.White;
@@ -152,7 +152,7 @@ namespace HotelZormat
             // 
             // btnBitacora
             // 
-            this.btnBitacora.BackColor = System.Drawing.Color.FromArgb(120, 40, 140);
+            this.btnBitacora.BackColor = System.Drawing.Color.FromArgb(142, 68, 173);
             this.btnBitacora.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBitacora.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnBitacora.ForeColor = System.Drawing.Color.White;

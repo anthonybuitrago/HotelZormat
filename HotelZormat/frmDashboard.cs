@@ -56,19 +56,19 @@ namespace HotelZormat
                     switch (hab.Estado)
                     {
                         case "Disponible":
-                            btn.BackColor = Color.FromArgb(46, 139, 87); // Verde
+                            btn.BackColor = Color.FromArgb(60, 179, 113); // Verde
                             btn.ForeColor = Color.White;
                             break;
                         case "Ocupada":
-                            btn.BackColor = Color.FromArgb(178, 34, 34); // Rojo
+                            btn.BackColor = Color.FromArgb(205, 92, 92); // Rojo
                             btn.ForeColor = Color.White;
                             break;
                         case "Reservada":
-                            btn.BackColor = Color.FromArgb(218, 112, 21); // Naranja
+                            btn.BackColor = Color.FromArgb(230, 126, 34); // Naranja
                             btn.ForeColor = Color.White;
                             break;
                         case "Limpieza":
-                            btn.BackColor = Color.FromArgb(25, 118, 210); // Azul
+                            btn.BackColor = Color.FromArgb(93, 173, 226); // Azul
                             btn.ForeColor = Color.White;
                             break;
                         default:

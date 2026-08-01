@@ -44,7 +44,7 @@ namespace HotelZormat
             // 
             // pnlTop
             // 
-            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(24, 43, 73);
+            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(20, 35, 60);
             this.pnlTop.Controls.Add(this.lblTitulo);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
@@ -67,7 +67,7 @@ namespace HotelZormat
             // 
             this.lblSubtituloLista.AutoSize = true;
             this.lblSubtituloLista.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblSubtituloLista.ForeColor = System.Drawing.Color.FromArgb(24, 43, 73);
+            this.lblSubtituloLista.ForeColor = System.Drawing.Color.FromArgb(20, 35, 60);
             this.lblSubtituloLista.Location = new System.Drawing.Point(15, 60);
             this.lblSubtituloLista.Name = "lblSubtituloLista";
             this.lblSubtituloLista.Size = new System.Drawing.Size(235, 19);
@@ -230,7 +230,7 @@ namespace HotelZormat
             // 
             this.lblNochesCalculadas.AutoSize = true;
             this.lblNochesCalculadas.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
-            this.lblNochesCalculadas.ForeColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.lblNochesCalculadas.ForeColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.lblNochesCalculadas.Location = new System.Drawing.Point(105, 236);
             this.lblNochesCalculadas.Name = "lblNochesCalculadas";
             this.lblNochesCalculadas.Size = new System.Drawing.Size(18, 20);
@@ -251,7 +251,7 @@ namespace HotelZormat
             // 
             this.lblMontoCalculado.AutoSize = true;
             this.lblMontoCalculado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblMontoCalculado.ForeColor = System.Drawing.Color.FromArgb(34, 139, 34);
+            this.lblMontoCalculado.ForeColor = System.Drawing.Color.FromArgb(60, 179, 113);
             this.lblMontoCalculado.Location = new System.Drawing.Point(105, 270);
             this.lblMontoCalculado.Name = "lblMontoCalculado";
             this.lblMontoCalculado.Size = new System.Drawing.Size(68, 21);
@@ -260,7 +260,7 @@ namespace HotelZormat
             // 
             // btnCrearReserva
             // 
-            this.btnCrearReserva.BackColor = System.Drawing.Color.FromArgb(40, 167, 69);
+            this.btnCrearReserva.BackColor = System.Drawing.Color.FromArgb(60, 179, 113);
             this.btnCrearReserva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrearReserva.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnCrearReserva.ForeColor = System.Drawing.Color.White;

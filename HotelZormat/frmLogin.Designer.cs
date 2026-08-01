@@ -31,7 +31,7 @@ namespace HotelZormat
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
-            this.lblTitulo.ForeColor = System.Drawing.Color.FromArgb(24, 43, 73);
+            this.lblTitulo.ForeColor = System.Drawing.Color.FromArgb(20, 35, 60);
             this.lblTitulo.Location = new System.Drawing.Point(35, 20);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(203, 30);
@@ -88,7 +88,7 @@ namespace HotelZormat
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(24, 43, 73);
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(20, 35, 60);
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnLogin.ForeColor = System.Drawing.Color.White;
@@ -102,7 +102,7 @@ namespace HotelZormat
             // 
             // btnSalir
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(200, 50, 50);
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(205, 92, 92);
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnSalir.ForeColor = System.Drawing.Color.White;

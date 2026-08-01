@@ -44,7 +44,7 @@ namespace HotelZormat
             // 
             // pnlTop
             // 
-            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(24, 43, 73);
+            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(20, 35, 60);
             this.pnlTop.Controls.Add(this.lblTitulo);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
@@ -102,7 +102,7 @@ namespace HotelZormat
             // 
             this.lblNCFVal.AutoSize = true;
             this.lblNCFVal.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
-            this.lblNCFVal.ForeColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.lblNCFVal.ForeColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.lblNCFVal.Location = new System.Drawing.Point(160, 18);
             this.lblNCFVal.Name = "lblNCFVal";
             this.lblNCFVal.Size = new System.Drawing.Size(121, 20);
@@ -243,7 +243,7 @@ namespace HotelZormat
             // 
             this.lblTotalVal.AutoSize = true;
             this.lblTotalVal.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
-            this.lblTotalVal.ForeColor = System.Drawing.Color.FromArgb(34, 139, 34);
+            this.lblTotalVal.ForeColor = System.Drawing.Color.FromArgb(60, 179, 113);
             this.lblTotalVal.Location = new System.Drawing.Point(160, 258);
             this.lblTotalVal.Name = "lblTotalVal";
             this.lblTotalVal.Size = new System.Drawing.Size(89, 25);
@@ -252,7 +252,7 @@ namespace HotelZormat
             // 
             // btnImprimir
             // 
-            this.btnImprimir.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnImprimir.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnImprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnImprimir.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
             this.btnImprimir.ForeColor = System.Drawing.Color.White;

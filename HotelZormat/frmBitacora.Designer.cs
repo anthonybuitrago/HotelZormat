@@ -27,7 +27,7 @@ namespace HotelZormat
             // 
             // pnlTop
             // 
-            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(120, 40, 140);
+            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(142, 68, 173);
             this.pnlTop.Controls.Add(this.btnRefrescar);
             this.pnlTop.Controls.Add(this.lblTitulo);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
@@ -49,7 +49,7 @@ namespace HotelZormat
             // 
             // btnRefrescar
             // 
-            this.btnRefrescar.BackColor = System.Drawing.Color.FromArgb(40, 116, 166);
+            this.btnRefrescar.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
             this.btnRefrescar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRefrescar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnRefrescar.ForeColor = System.Drawing.Color.White;
